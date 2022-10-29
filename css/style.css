@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/* common css start */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1600px;
+    margin: auto;
+}
+.section_info {
+    text-align: center;
+  }
+  .section_info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #80898b;
+  }
+  .section_info p {
+    font-size: 16px;
+    color: #7e8287;
+    margin: auto;
+    line-height: 41px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* //common css end */
+
+/* nav container start */
+nav{
+    background-color: #252e30;
+   
+}
+
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+nav .container img{
+    display:block;
+}
+.container .logo{
+    width: 20%;
+}
+.container.menu{
+    width: 80%;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 15px 20px;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 0.7s;
+    
+}
+nav .menu ul li:hover{
+    background-color: #2ecc71;
+    transition: 0.7s;
+}
+/* //nav container end */
+
+/* banner_container start */
+#banner{
+    background: url(../img/IMG_20200818_180554-01.jpeg);
+    
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+  }
+  #banner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.66;
+    z-index: -1;
+  }
+  #banner .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #banner .banner_content {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+  }
+ 
+  #banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+ 
+ 
+  #banner a {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    text-transform: uppercase;
+    background: #cfc91d;
+    padding: 19px 42px;
+    display: inline-block;
+  }
+/* //banner_container end */
+/*  skill section start */
+
+.skill_item{
+    width: 33.33%;
+    text-align: center;
+    padding: 99px 55px; 
+   
+}
+.skill_item{
+    font-size: 30px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #566366;
+}
+.skill_item{
+    font-size: 18px;
+    font-weight: 400px;
+    color:#7e8287;
+    margin: auto;
+}
+/* // skill section end */
+
+/* about section start */
+
+#about .container {
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: auto;
+  }
+ #about .img{
+    width: 50%;
+    margin: auto;
+    display: block;
+   padding-left: 100px;
+    
+   
+ }
+  #about .about_inner_container {
+    width: 50%;
+   
+  }
+  #about.section_info h2{
+    text-align:left;
+    font-size: 30px;
+    font-weight: 700;
+    color: #80898b;
+    
+  }
+  #about .section_info {
+    text-align:left;
+  }
+  #about .about_item {
+    margin: auto;
+    width: 50%;
+    padding-right: 125px;
+    margin-top: 55px;
+    text-align: left;
+    
+  }
+  #about .about_item i {
+    font-size: 22px;
+    font-weight: 700;
+    color: #2ecc71;
+  }
+  #about .about_item h3 {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 20px 0;
+  }
+  #about .about_item p {
+    font-size: 11px;
+    color: #7e8287;
+  }
+ 
+
+
+
+
+/* //about section end */
+/* My Work Section Start */
+
+#my_work .section_info {
+ 
+  margin: 110px 0 78px
+}
+#my_work .section_info p {
+  width: 510px;
+}
+
+#my_work .my_work_item {
+margin-right:10px;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+ 
+}
+#my_work .my_work_item img {
+  display: block;
+  width: 100%;
+}
+/* //My Work Section end */
+/* Contact Section Css start */
+#contact{
+  background-color:#0b1016 ;
+}
+#contact .section_info {
+  margin: 110px 0 78px;
+}
+#contact .section_info p {
+  width: 676px;
+  
+}
+#contact .inner_container .section_info h2 {
+  text-align: center;
+  width: 676px;
+}
+#contact .contact_form {
+  
+  padding: 68px 0;
+}
+#contact .contact_form input,
+#contact .contact_form textarea{
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7e8287;
+  padding: 18px;
+  background: none;
+  
+  
+  margin-bottom: 51px;
+}
+
+
+#contact .container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+#contact .inner_container{
+  width: 50%;
+
+}
+#contact .outer_container{
+  width: 50%;
+ 
+}
+
+
+#contact .contact_form textarea{
+   resize: none;
+   font-family: "Open Sans", sans-serif;
+   height: 60px;
+}
+#contact .contact_form button{
+   font-size: 14px;
+   font-weight: 800;
+   color: #0b1016;
+   text-transform: uppercase;
+   background: #cfc91d;
+   padding: 19px 64px;
+   cursor: pointer;
+   border: none;
+   display: block;
+   margin: auto;
+}
+/* //Contact Section Css End */
